@@ -13,10 +13,11 @@ const Primarytable = () => {
 <table id="customers">
   <tr>
     <th>Name</th>
-    <th>Date of birth</th>
+    <th>Date Of birth</th>
     <th>Mobile</th>
   </tr>
   {
+
     tableRows.map((row) =>{
       return (
         <tr key={row.name}>
